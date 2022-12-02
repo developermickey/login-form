@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: salmon;
+    justify-content: center;
+    align-items: center;
+
+}
+#main form {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+#main form h3 {
+    color: #fff;
+    font-size: 32px;
+}
+#main form input {
+    color: salmon;
+    font-size: 16px;
+    width: 250px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    padding: 20px;
+}
+#main form button {
+    color: salmon;
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
